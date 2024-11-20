@@ -1,0 +1,87 @@
+.stitle {
+    display: inline-block;
+    width: 380px;
+    border: none;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tbl_block {
+    background-color: dimgray;
+    border-spacing: 0;
+}
+
+td {
+    padding: 0;
+    border: 1px;
+}
+
+.tbl_numbutton {
+    margin-top: 10px;
+    background-color: white;
+    border-spacing: 0;
+}
+
+.buttons {
+    width: 400px;
+    margin-top: 10px;
+}
+
+
+.mbutton {
+    width: 72px;
+    height: 30px;
+    border: none;
+    font-size: 20px;
+    background-color: rgb(138, 173, 173);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.tbutton {
+    width: 40px;
+    height: 40px;
+    border: none;
+    font-size: 28px;
+    color: black;
+}
+
+.kbutton {
+    width: 40px;
+    height: 40px;
+    border: none;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: rgb(138, 173, 173);
+    border-radius: 10px;
+}
+
+.button_pink {
+    background-color: hotpink;
+}
+
+.button_orange {
+    background-color: orange;
+}
+
+.button_blue {
+    background-color: rgb(88, 97, 173);
+}
+
+.button_red {
+    background-color: red;
+}
+
+.button_cyan {
+    background-color: cyan;
+}
+
+.button_bold {
+    font-weight: bold;
+}
+
+.cellnum {
+    text-align: center;
+}

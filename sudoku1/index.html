@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SUDOKU</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <label class="stitle">SUDOKU</label>
+    <table class="tbl_block">
+        <tr>
+            <td id="td0"></td>
+            <td id="td1"></td>
+            <td id="td2"></td>
+        </tr>
+        <tr>
+            <td id="td3"></td>
+            <td id="td4"></td>
+            <td id="td5"></td>
+        </tr>
+        <tr>
+            <td id="td6"></td>
+            <td id="td7"></td>
+            <td id="td8"></td>
+        </tr>
+    </table>
+    <table class="tbl_numbutton">
+        <tr>
+            <td id="inp0"></td>
+            <td id="inp1"></td>
+            <td id="inp2"></td>
+        </tr>
+    </table>
+    <div class="buttons">
+        <button id="undo" class="mbutton" type="button" onclick="undo()">←</button>
+        <button id="redo" class="mbutton" type="button" onclick="redo()">→</button>
+        <button id="memory_in" class="mbutton" type="button" onclick="memory_in()">Min</button>
+        <button id="memory_out" class="mbutton" type="button" onclick="memory_out()">Mout</button>
+        <button id="all_clear" class="mbutton" type="button" onclick="dtclear()">clear</button>
+    </div>
+
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
